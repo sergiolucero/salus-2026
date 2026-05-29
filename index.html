@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALUS - Escriba Digital</title>
+    <style>
+        /* Define our professional color palette */
+        :root {
+            --dark-blue: #0f2537;        /* Deep professional blue */
+            --accent-blue: #1a365d;      /* Slightly lighter blue for accents */
+            --bg-color: #f4f7f9;         /* Very light blue-grey for the background */
+        }
+
+        /* Basic page reset and typography */
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: #333333;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Center content and add a subtle shadow for a polished look */
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(15, 37, 55, 0.1);
+            max-width: 900px;
+            width: 100%;
+            text-align: center;
+            border-top: 6px solid var(--dark-blue);
+        }
+
+        /* Logo styling */
+        .logo {
+            max-width: 220px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        /* Typography for the heading */
+        h2 {
+            color: var(--dark-blue);
+            font-size: 28px;
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 35px;
+            letter-spacing: -0.5px;
+        }
+
+        /* A stylish wrapper around the video to tie into the theme */
+        .video-wrapper {
+            background-color: var(--dark-blue);
+            padding: 10px;
+            border-radius: 12px;
+            display: inline-block;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Ensure the video is responsive and smooth */
+        video {
+            border-radius: 6px;
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Added an 'alt' tag for accessibility and validity -->
+        <img src="logo_felix.png" alt="Logo Felix" class="logo">
+        
+        <h3>SALUS, escriba digital para la consulta médica</h3>
+
+        <div class="video-wrapper">
+            <!-- Cleaned up the non-breaking spaces from your original snippet -->
+            <video 
+                src="salus_demo.mp4" 
+                controls 
+                width="800" 
+                preload="metadata" 
+                poster="thumbnail.jpg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+</body>
+</html>
